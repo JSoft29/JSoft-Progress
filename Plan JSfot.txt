@@ -4,3 +4,4 @@ Planning J Soft
 - Learn Layout
 - Learn PHP
 - Learn DATABASE
+- Learn CRUD Database
