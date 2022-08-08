@@ -1,0 +1,6 @@
+Planning J Soft
+- Learn HTML
+- Leran CSS
+- Learn Layout
+- Learn PHP
+- Learn DATABASE
