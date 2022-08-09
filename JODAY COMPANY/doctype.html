@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="gambar/joday.png" type="image/x-icon" />
+    <title>JODAY-COMPANY</title>
+  </head>
+  
+  
+  <body>
+        
+        <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                      <img id="img" class="img-responsive" src="gambar/www.jpg" /> 
+                </div>
+                <div class="col-sm-1"></div>
+        </div>
+        
+        <br />
+        <div class="row">
+            <div class="col-sm-1"></div>
+                <div id="tab">
+                      <div class="col-sm-3">
+                          <div class="panel-title" id="judul">MENU</div>
+                          <hr />              
+                            
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="mengenal.html">Mengenal HTML5</a></li>
+                                    <li><a href="doctype.html">DOCTYPE HTML5</a></li>
+                                    <li><a href="charset.html">Charset UTF-8 HTML5</a></li>                        
+                                    <li><a href="semantik.html">SEMANTIK TAG</a></li>
+                                </ul>
+                           
+                      </div>
+                      <div class="col-sm-7">
+                          <div class="panel-title" id="judul">DOCTYPE PADA HTML5</div>
+                              <hr />
+                                    <p id="kata">
+                                    DOCTYPE atau <i>Document Type Declaration</i> (DTD) adalah sebuah keterangan yang ditulis untuk memberitahukan web browser 
+                                    tentang aturan penulisan dari dokumen yang sedang ditampilkan.<br />
+                                    Doctype ditulis pada baris pertama HTML.
+                                    </p>
+                                    <p id="kata">
+                                    Keharusan penulisan doctype berasal dari bahasa yang dinamakan SMGL dan XML. Keduanya adalah bahasa markup dimana HTML dan XHTML 
+                                    dikembangkan.<br /><br />
+                                    Contoh penulisan doctype pada HTML versi 4.01:<br /><br />
+                                    &lt;!DOCTYPE HTML PUBLIC "-//WEC//DTD HTML 4.10//EN"<br />"http://www.w3.org/TR/html4/strict.dtd"&gt;<br /><br />
+                                    Perhatikan bahwa penulisan doctype mencantumkan versi HTML (HTML 4.01//EN), diikuti dengan alamat dimana aturan DOCTYPE tersebut 
+                                    berada (http://www.w3.org/TR/html4/strict.dtd).<br /><br />
+                                    Sedangkan unutk penulisan doctype pada XHTML 1.0 adalah :<br /><br />
+                                    &lt;!DOCTYPE HTML PUBLIC "-//WEC//DTD XHTML 1.0 Transitional//EN"<br />"http://www.w3.org/TR/xhtml1-transitional.dtd"&gt;<br />
+                                    </p>
+                                    <p id="kata">
+                                    Nah tadikan contoh penulisan HTML 4.01 dan XHTML 1.0, sekarang contoh penulisan doctype yang benar pada HTML5 :<br /><br />
+                                    &lt;!DOCTYPE html&gt;<br /><br />
+                                    Sangat singkat dan mudah diingat bukan. Hal ini dikarenakan HTML5 tidak lagi bagian dari bahasa SMGL yang sangat mengharuskan 
+                                    penulisan doctype beserta alamat DTD-nya. Bahkan HTML5 tidak membutuhkan penulisan doctype sama sekali (opsional).<br />
+                                    </p>
+                                    <p id="kata">Akan tetapi, jika web browser menampilkan sebuah dokumen HTML yang ditulis tanpa doctype, web browser akan masuk kedalam 
+                                    tampilan yang dinamakan <i>"quirk mode"</i>. Quirk mode adalah sebuah fitur dalam web browser dimana halaman web ditampilkan 
+                                    secara berbeda. Sebuah halaman web tanpa sebuah doctype dianggap halaman HTML <i>'usang'</i> dan perlu perlakuan khusus untuk menampilkannya.<br />
+                                    </p>
+                                    <p id="kata">Fitur <i>"quirk mode"</i> memiliki banyak bug, sehingga mau tidak mau HTML5 tetap menggunakan doctype, tetapi dengan versi 
+                                    sesederhana mungkin agar web browser tidak masuk kedalam mode ini dan menampilkannya secara normal (standard mode).<br />
+                                    </p>
+                                    <p id="kata">Doctype dalam HTML5 bersifat <i>case-insensitive</i>, yang tidak membedakan penulisan dengan huruf besar 
+                                    maupun huruf kecil. Akan tetapi karena faktor kebiasaan, anda akan menemukan penulisan dengan huruf besar lebih sering digunakan.<br /><br />
+                                    </p>
+                      </div>
+                </div>
+            <div class="col-sm-1"></div>
+        </div>
+        
+        <br />
+        <br />
+        <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <div class="panel-footer">
+                        <div id="container">
+                            <div id="footer">JODAY COMPANY &copy; 2018</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+        </div>
+       
+    
+  
+    <script src="kanan.js">
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery.min.js">
+    </script>
+    <script src="popper.min.js">
+    </script>
+    <script src="/bootstrap/js/bootstrap.min.js">
+    </script>
+  </body>
+
+</html>
